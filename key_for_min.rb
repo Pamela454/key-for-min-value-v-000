@@ -6,7 +6,7 @@ name_a = name_hash.to_a
 
 #default key value
 digits = 1000
-name = nil
+person = nil
 
 #Iterate new array
 name_a.each do |i|
@@ -15,5 +15,5 @@ name_a.each do |i|
     person = i[0]
   end
 end
-return name
+return person
 end
