@@ -11,8 +11,8 @@ key = nil
 #Iterate new array
 name_a.each do |i|
   if i[1] < d_value
-    value = i[1]
-    key = i[0]
+    digits = i[1]
+    name = i[0]
   end
 end
 return d_key
