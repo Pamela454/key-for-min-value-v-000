@@ -15,5 +15,5 @@ name_a.each do |i|
     name = i[0]
   end
 end
-return d_key
+return name
 end
