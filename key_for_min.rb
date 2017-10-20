@@ -12,7 +12,7 @@ name = nil
 name_a.each do |i|
   if i[1] < d_value
     digits = i[1]
-    name = i[0]
+    person = i[0]
   end
 end
 return name
