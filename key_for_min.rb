@@ -10,7 +10,7 @@ person = nil
 
 #Iterate new array
 name_a.each do |i|
-  if i[1] < d_value
+  if i[1] < digits
     digits = i[1]
     person = i[0]
   end
